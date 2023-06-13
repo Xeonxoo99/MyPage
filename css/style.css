@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Jua&family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body::-webkit-scrollbar { display:none; }
+
+.header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 999;
+    background-color: #fcfcfc;
+}
+
+.title {
+    font-size: 50px;
+    margin: 30px auto 30px 600px;
+}
+
+.login {
+    margin: 0px 20px;
+}
+
+.menu {
+    margin: 20px 100px;
+}
+.Slidesbackground {
+    margin: 150px;
+    padding: 0;
+
+}
+.slideshow-image{
+    border-radius:3%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.mySlides {
+    border-radius:3%;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.top_menu > ul > li {
+    margin: 0 100px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+
+.top_menu > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+ /* 최하단 사이트 정보 */
+.box {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 1400px;
+    height: 250px;
+    font-size: 14px;
+
+    margin: 0 auto;
+}
+
+.box > p {
+    float: left;
+    margin: 0 40px;
+    font-weight:500;
+}
+
+.bottom_menu > ul {
+    height: 20px;
+}
+
+.bottom_menu > ul > li {
+    margin: 4px 0px 0 10px;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+
+.bottom_menu > ul > li > a{
+    font-family: 'Hahmlet', serif;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+ul {
+    margin-bottom: -1px;
+}
+
+.btn {
+    font-family: 'Hahmlet', serif;
+    margin-left: 500px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.CS > button {
+    color:white;
+    font-weight: bold;
+}
+
+.end__2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.7px solid lightgray;
+}
+
+.end__2 > p {
+    float: left;
+    margin: 10px 47px;
+}
+
+.information {
+    width: 50%;
+    height: 700px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.CS {
+    width: 50%;
+    height: 700px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.information > p {
+    font-family: 'Hahmlet', serif;
+}
+
+.CS > p {
+    font-family: 'Hahmlet', serif;
+}
+
+.CS > span {
+    font-family: 'Hahmlet', serif;
+}
+
+ /* 우측 SNS 아이콘 */
+.aside {
+    position: fixed; /* 아이콘을 고정시킵니다. */
+    top: 50%; /* 상단 여백 조정 */
+    right: 20px; /* 오른쪽 여백 조정 */
+    transform: translateY(-50%); /* 수직 정렬을 위해 위치 조정 */
+}
+
+.bi-instagram {
+    color: #E4405F;
+    display: inline-block;
+    font-family: "Bootstrap Icons";
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.bi-facebook {
+    color: #1877F2;
+    display: inline-block;
+    font-family: "Bootstrap Icons";
+    font-size: 30px;
+}
+
+.grid {
+    position: relative;
+    height: 953px;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+h3 {
+    margin-left: 100px;
+}
+
+    /* 콘텐츠, 가맹문의 구역 */
+.static {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+ /* 콘텐츠 메뉴 */
+.contents_left {
+    width: 900px;
+    margin: 40px 0 0 150px;
+}
+
+.grid-item-txt .cate {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+}
+
+.grid-item-txt .title2 {
+    color: #222;
+    font-size: 15px;
+    line-height: 1.43;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.ellipsis2 {
+    display: -webkit-box;
+}
+
+.title2.ellipsis2 {
+    font-family: 'Hahmlet', serif;
+}
+
+.title2.ellipsis2::before {
+    content: "- ";
+}
+
+.title2.ellipsis2::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+}
+
+ /* 가맹문의 관련 */
+.contents-right {
+    float: right;
+    margin-right: 150px;
+}
+
+.contents_right > h3 {
+    font-family: 'Hahmlet', serif;
+    font-size: 17px;
+}
+
+.con {
+    font-family: 'Hahmlet', serif;
+}
+
+.contents_right h4 {
+    font-family: 'Hahmlet', serif;
+    margin-left: 30px;
+}
+
+.contents-cafe-item img {
+    margin: 30px;
+}
+
+.contents-cafe-item p {
+    margin-left: 30px;
+}
+
+.contents-cafe-item a {
+    font-family: 'Hahmlet', serif;
+    margin-left: 30px;
+    color:black
+}
+
+/* 사진 모아놓기 */
+
+.Identity {
+    background-color: rgba(244, 239, 239, 0.964);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 50px;
+}
+
+.statics {
+    background-color: white;
+    width:1200px;
+    height: 1000px;
+}
+
+img {
+    padding:0;
+}
+
+.statics > h3 {
+    margin-left: auto;
+}
+
+.static > h3 > img {
+    float:left;
+}
+
+.ha-bx1 {
+    width: 300px;
+    height: 476px;
+    text-align: center;
+    display: grid;
+}
+
+.tit-ar {
+    margin: auto;
+}
+
+.ha-bx1 p {
+    font-family: 'Hahmlet', serif;
+    color:black
+}
